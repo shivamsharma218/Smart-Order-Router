@@ -1,0 +1,193 @@
+{
+  "id": "smart-order-router",
+  "title": "Smart Order Router",
+  "tagline": "Intelligent DeFi Trading Engine",
+  "description": "An advanced DEX aggregation platform that discovers liquidity across multiple decentralized exchanges, analyzes optimal trading routes, and executes swaps with minimal slippage and gas costs.",
+  "longDescription": "Smart Order Router combines on-chain smart contracts with an off-chain optimization engine to find the best trading paths in real-time. It features a 5-phase pipeline for pool discovery, graph construction, route finding, quote calculation, and swap execution.",
+  "category": "DeFi | Web3 | Smart Contracts",
+  "keywords": [
+    "DeFi",
+    "Trading",
+    "Smart Contracts",
+    "Ethereum",
+    "DEX",
+    "Optimization",
+    "Web3"
+  ],
+  "technologies": [
+    {
+      "name": "Solidity",
+      "version": "0.8.28",
+      "category": "Smart Contracts"
+    },
+    {
+      "name": "Node.js",
+      "version": "18+",
+      "category": "Runtime"
+    },
+    {
+      "name": "Hardhat",
+      "version": "3.11.0",
+      "category": "Framework"
+    },
+    {
+      "name": "Ethers.js",
+      "version": "6.x",
+      "category": "Web3 Library"
+    },
+    {
+      "name": "Ethereum",
+      "category": "Blockchain"
+    }
+  ],
+  "features": [
+    {
+      "icon": "🔍",
+      "title": "Liquidity Discovery",
+      "description": "Automatically scan DEX factories to discover available liquidity pools"
+    },
+    {
+      "icon": "🌐",
+      "title": "Graph-Based Routing",
+      "description": "Build directed graphs of token pairs and compute swap routes"
+    },
+    {
+      "icon": "🧠",
+      "title": "Route Optimization",
+      "description": "Query live on-chain quotes and rank routes by profitability"
+    },
+    {
+      "icon": "⚡",
+      "title": "Smart Execution",
+      "description": "Execute multi-hop swaps via smart contracts with atomic transactions"
+    },
+    {
+      "icon": "🎨",
+      "title": "Web Dashboard",
+      "description": "Interactive UI for visualizing pools, routes, and executing swaps"
+    },
+    {
+      "icon": "📊",
+      "title": "Real-time Updates",
+      "description": "Continuous pool discovery and quote refresh with automation"
+    }
+  ],
+  "stats": {
+    "pipelinePhases": 5,
+    "multiHopRoutes": "2-4",
+    "dexSupport": "Unlimited",
+    "quoteTime": "1-2 seconds",
+    "discoveryTime": "2-5 seconds",
+    "executionTime": "15-45 seconds"
+  },
+  "architecture": {
+    "phases": [
+      {
+        "order": 1,
+        "name": "Discovery",
+        "description": "Scan DEX factories for liquidity pools",
+        "time": "2-5s"
+      },
+      {
+        "order": 2,
+        "name": "Graph Building",
+        "description": "Build routing graph from pool data",
+        "time": "100-300ms"
+      },
+      {
+        "order": 3,
+        "name": "Route Finding",
+        "description": "Enumerate candidate swap paths",
+        "time": "200-500ms"
+      },
+      {
+        "order": 4,
+        "name": "Quote Calculation",
+        "description": "Get on-chain quotes for best route",
+        "time": "1-2s"
+      },
+      {
+        "order": 5,
+        "name": "Swap Execution",
+        "description": "Execute atomic swap transaction",
+        "time": "15-45s"
+      }
+    ],
+    "components": [
+      "Web Dashboard (Frontend)",
+      "REST API Server (Node.js)",
+      "Optimization Pipeline (Backend)",
+      "Smart Contracts (Solidity)",
+      "Ethereum Network"
+    ]
+  },
+  "useCases": [
+    {
+      "title": "DEX Aggregation",
+      "description": "Find best prices across multiple DEXs without manual comparison"
+    },
+    {
+      "title": "Route Optimization",
+      "description": "Discover multi-hop routes for tokens with limited direct liquidity"
+    },
+    {
+      "title": "Cost Reduction",
+      "description": "Minimize gas fees and slippage through intelligent routing"
+    },
+    {
+      "title": "Trading Automation",
+      "description": "Automate swap discovery and execution at scale"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/shivamsharma218/Smart-Order-Router",
+    "branch": "main",
+    "license": "ISC"
+  },
+  "documentation": {
+    "quickStart": "https://github.com/shivamsharma218/Smart-Order-Router#quick-start",
+    "fullDocs": "https://github.com/shivamsharma218/Smart-Order-Router/blob/main/README_PRODUCTION.md",
+    "api": "https://github.com/shivamsharma218/Smart-Order-Router#api-reference"
+  },
+  "deployment": {
+    "networks": [
+      {
+        "name": "Ethereum Mainnet",
+        "chainId": 1,
+        "status": "Ready"
+      },
+      {
+        "name": "Sepolia Testnet",
+        "chainId": 11155111,
+        "status": "Recommended"
+      },
+      {
+        "name": "Localhost",
+        "chainId": 31337,
+        "status": "Development"
+      }
+    ]
+  },
+  "highlights": [
+    "Production-ready code",
+    "Comprehensive documentation",
+    "Smart contract with gas optimization",
+    "Interactive web dashboard",
+    "Full test suite",
+    "Security best practices"
+  ],
+  "status": "Production Ready",
+  "version": "1.0.0",
+  "lastUpdated": "2024-08-13",
+  "author": {
+    "name": "Shivam Sharma",
+    "github": "https://github.com/shivamsharma218",
+    "portfolio": "https://shivamsharma218.github.io"
+  },
+  "socialProof": {
+    "stars": 0,
+    "forks": 0,
+    "commits": 30,
+    "documentation": "Comprehensive"
+  }
+}
